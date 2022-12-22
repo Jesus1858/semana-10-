@@ -1,0 +1,26 @@
+print("El programa esta programado para mostrar si es un numero divisible por 3 o 5.")
+numero = input("Digite su numero:...")
+suma = 0
+ultima = int(numero)%10
+tam=len(numero)
+for i in range(tam):
+  suma=suma+int(numero)
+
+div3 = suma%3
+if div3 == 0:
+    print("El numero "+str(numero)+" es divisible por 3")
+else:
+     print("El numero "+str(numero)+" no es divisible por 3")
+div5 = ultima%5
+if ultima == 5 or ultima == 0:
+     print("El numero "+str(numero)+" es divisible por 5")
+else:
+     print("El numero "+str(numero)+" no es divisible por 5")
+
+#if:La condición se interpreta como una expresión booleana que se evalúa como verdadera o falsa.
+#Un bucle for establece la variable iteradora en cada valor de una lista, arreglo 
+#o cadena proporcionada y repite el código en el cuerpo del bucle for para cada valor de la variable iteradora
+#else: es una función condicional y, por lo tanto, una estructura de control fundamental. El uso de un condicionante permite 
+# diferentes opciones en función de la situación que se encuentre en el momento de ejecución del código.
+#FOR:Un bucle for establece la variable iteradora en cada valor de una lista, arreglo 
+#o cadena proporcionada y repite el código en el cuerpo del bucle for para cada valor de la variable iteradora
