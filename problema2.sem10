@@ -1,0 +1,16 @@
+print("Calcular la suma de todos los n numeros enteros y la suma de sus pares.")
+cantidad = int(input("Ingrese la cantidad de datos:..."))
+suma = 0
+par = 0
+for i in range(1, cantidad+1):
+    num = int(input("Digite el numero:.."))
+    suma = suma + num
+    if num % 2 == 0:
+     par = par + num
+print("La suma de todos los numeros es:...",suma)
+print("La suma de los numeros pares es:...",par)
+
+
+#FOR:Un bucle for establece la variable iteradora en cada valor de una lista, arreglo 
+#o cadena proporcionada y repite el código en el cuerpo del bucle for para cada valor de la variable iteradora
+#if:La condición se interpreta como una expresión booleana que se evalúa como verdadera o falsa. 
